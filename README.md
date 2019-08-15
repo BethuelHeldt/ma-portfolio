@@ -9,7 +9,7 @@ Het is de bedoeling dat je deze portfolio gaat verbouwen zodat het jouw portfoli
 * In het begin pas je alleen de kleuren, plaatjes en lettertypes aan. 
 * Later ga je ook de layout aanpassen.
 
-Al je werk en opdrachten voorzie je van een titel en een korte beschrijving. In die omschrijvint zet je onder andere:
+Al je werk en opdrachten voorzie je van een titel en een korte beschrijving. In die omschrijving zet je onder andere:
 * De titel van de opdracht
 * De datum waarop je deze opdracht hebt gemaakt of ingeleverd.
 * Wat was de opdracht
