@@ -138,6 +138,7 @@ ul.vakken > li{
 
 ul.vakken > li:hover{
 	background-image: url(../img/vak_potloden_geel.jpg);
+	background-position: center top;
 	color: rgba(255, 255, 255, 1);
 }
 
