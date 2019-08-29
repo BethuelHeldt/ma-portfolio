@@ -1,4 +1,4 @@
-# ma-portfolio
+# Ma-portfolio
 School portfolio Mediacollege Amsterdam 1ste jaars
 
 Dit is de template waarmee je jouw portfolio start.
