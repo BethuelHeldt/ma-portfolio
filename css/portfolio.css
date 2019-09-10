@@ -5,13 +5,13 @@ body *{
 }
 body{
 	margin:0;
-	padding:0;	
+	padding:0;
 	background-size: cover;
 	font-size: 16px;
 	line-height: 1.3em;
 }
 h1, h2, h3{
-	font-weight: normal;    
+	font-weight: normal;
 	line-height: 1.4em;
 }
 h1 {
@@ -56,7 +56,7 @@ div#nav.blijf_boven_plakken {
 #nav > ul {
 	background-color: rgba(0, 0, 0, .8);
 }
-#nav > ul, 
+#nav > ul,
 #nav > ul > li{
 	list-style: none;
 	margin:0;
@@ -118,7 +118,7 @@ ul.vakken > li{
     border-right:10px solid transparent;
 	min-height: 150px;
 	color: rgba(5, 27, 39, 1);
-    
+
 	background-color: rgb(247, 189, 4);
 	background-image: url(../img/vak_potloden_wit.jpg);
 	background-size: cover;
@@ -136,10 +136,7 @@ ul.vakken > li{
 	font-size: 1.3em;
 	line-height: 1.3em;
 	hyphens: auto;/*maakt het streepje bij het afbreken van een woord op de volgende regel*/
-}
-
-ul.vakken > li:nth-of-type(5n+0){/* elke 5de <li> heeft geen margin-right */
-    margin-right: 0px;
+	word-break: break-word;
 }
 
 ul.vakken > li:hover{
@@ -186,16 +183,10 @@ ul.vakken ul li a:hover{
 
 /******************************************************************************************Mediaqueries*/
 /*voor schermen tot  800px breed*/
-@media screen AND (max-width: 800px){	
+@media screen AND (max-width: 800px){
 	ul.vakken > li {
 		flex: 0 1 calc(50% - 10px);/*vakken in 2 kolommen */
 	}
-    ul.vakken > li:nth-of-type(5n+0){/* elke 5de <li> heeft WEL margin-right bij een scherm van maximaal 800px */
-        margin-right: 10px;
-    }
-    ul.vakken > li:nth-of-type(2n+0){/* elke 2de <li> heeft GEEN margin-right bij een scherm van maximaal 800px, want 2 kolommen ipv 5 */
-        margin-right: 0px;
-    }
 }
 
 /*voor schermen tot  400px breed*/
@@ -207,9 +198,4 @@ ul.vakken ul li a:hover{
 	ul.vakken > li {
 		flex: 0 1 100%;/*alle vakken onder elkaar (1 kolom)*/
 	}
-    ul.vakken > li,
-    ul.vakken > li:nth-of-type(2n+0),
-    ul.vakken > li:nth-of-type(5n+0){/* alle <li> hebben GEEN margin-right bij een scherm van maximaal 400px, want 1 kolom ipv 2 */
-        margin-right: 0px;
-    }
 }
