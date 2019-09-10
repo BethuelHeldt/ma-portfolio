@@ -185,6 +185,13 @@ ul.vakken ul li a:hover{
 /*voor schermen tot  800px breed*/
 @media screen AND (max-width: 800px){
 	ul.vakken > li {
+		flex: 0 1 calc(33.3% - 10px);/*vakken in 2 kolommen */
+	}
+}
+
+/*voor schermen tot  600px breed*/
+@media screen AND (max-width: 600px){
+	ul.vakken > li {
 		flex: 0 1 calc(50% - 10px);/*vakken in 2 kolommen */
 	}
 }
