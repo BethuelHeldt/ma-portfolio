@@ -133,7 +133,7 @@ ul.vakken > li{
 	-webkit-transition: background-image 0.2s ease-in-out, color 0.2s ease-in-out;
 	transition: background-image 0.2s ease-in-out, color 0.5s ease-in-out;
 
-	font-size: 1.5em;
+	font-size: 1.3em;
 	line-height: 1.3em;
 	hyphens: auto;/*maakt het streepje bij het afbreken van een woord op de volgende regel*/
 }
