@@ -115,7 +115,7 @@ ul.vakken > li{
 	padding: 0.5em 1em;
 	margin: 0 10px 10px 0;/* margin: top=0 right=10px bottom=10px left=0 */
 	flex: 0 1 calc(20% - 10px);/*vakken in 5 kolommen naast elkaar*/
-    border-right:10px solid transparent;
+    /*border-right:10px solid transparent;*/
 	min-height: 150px;
 	color: rgba(5, 27, 39, 1);
 
